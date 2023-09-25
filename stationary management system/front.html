@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stationary.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="login">
+    <section class="banner">
+<marquee  direction="right to left"><span>TESTING </span></marquee>
+    </section>
+    
+<img src="./welcome.gif" >
+<section class="form">
+<p>Please, Fill details in form given below</p>
+name :- <input type="text"  id="name" class="main" placeholder="Please enter name">
+<br>
+
+branch :-<input type="text"  id="branch" class="sec"placeholder=" enter branch " >&nbsp;&nbsp;course :-<input type="text"  id="course" class="sec" placeholder=" enter course">
+<br>
+enrollment year :- <input type="date"  id="enrollment_year_1">
+&nbsp;
+to
+&nbsp;
+<input type="date" id="enrollment_year_2">
+<br>
+roll no. :- <input type="text"  id="roll_no" class="main" placeholder=" enter full roll no.">
+<br><br>
+<input type="submit" name="submit"  value="Login" id="log"  onclick="login()">
+<br><br>
+</section>
+
+</div>
+
+
+
+
+<!-- main page -->
+
+<div id="main">
+<h1 class="logo">Book<span>Store</span></h1>
+
+<div class="main_page">
+
+    <div class="menu_bar">
+       
+        <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Option</a></li>
+        <li><a href="#">Pages </a>
+        <div class="dropdown_menu">
+        <ul>
+        <li class="hover-me"><a href="#">Notes</a>
+        <div class="sub-menu">
+        <ul>
+        <li><a href="#">Physics</a></li>
+        <li><a href="#">Chemistry</a></li>
+        <li><a href="#">Maths</a></li>
+        </ul>
+        </div>
+        </li>
+        <li class="hover-me"><a href="#">Team</a>
+        <div class="sub-menu-2">
+        <ul>
+        <li><a href="#">Team1</a></li>
+        <li><a href="#">Team2</a></li>
+        <li><a href="#">Team3</a></li>
+        </ul>
+        </div>
+        </li>
+        <li><a href="#">Announcement</a></li>
+        <li><a href="#">Photos</a></li>
+        </ul>
+        </div>
+        </li>
+        <li><a href="#">About</a></li>
+        <li><a href="#" onclick="ret()">Login</a></li>
+       
+        </ul>
+       
+
+        </div>
+        
+
+</div>
+
+
+
+
+
+
+<div class="details" id="details">
+<ul>
+    <li id="name1">kartik
+        <div class="m">
+            <ul>
+                <li>ch</li>
+                <li>S</li>
+                <li>roll</li>
+            </ul>
+        </div>
+    </li>
+</ul>
+</div>
+</div>
+
+
+
+
+
+<script src="testing.js"></script>
+ <!-- <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzUzgq9CFe-xJwpZfRHNzDXwcpoiqTyH8nNk_cNJMXVB9YwgTb5Z5P4IoFZ7jFRmyBQ9g/exec'
+    const form = document.forms['google-sheet']
+    form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    .then(response => alert("Thanks for Log in..! "))
+    .catch(error => console.error('Thanks!', error.message))
+    })
+     </script>   -->
+</body>
+</html>

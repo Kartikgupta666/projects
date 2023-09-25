@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: transparent;
+    background-image: url(OIP2.jpg);
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.vir{
+    margin-top: 50px;
+    /* display: none; */
+   
+}
+
+#blc {
+    background-color: rgb(238, 248, 180);
+    margin-left: 50px;
+    border-radius: 15px;
+    height: 100%;
+    width: 50%;
+    padding: 20px;
+    font-size: 20px;
+}
+.block{
+    margin-top: 50px;
+    display: none;
+}
+
+#msg {
+ background-color: rgb(23, 202, 119);
+ margin-left: 50px;
+ border-radius: 15px;
+ height: 100%;
+ width: 50%;
+ padding: 20px;
+ font-size: 20px;
+ 
+
+}
+
+input[type=text] {
+    width: 500px;
+    height: 30px;
+    border-radius: 50px;
+    text-align: left;
+    font-size: 20px;
+   
+}
+.send {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: rgb(101, 255, 101);
+}
+.send:hover {
+    background-color: green;
+    color: greenyellow;
+}
+.box {
+    position: absolute;
+    margin-left: 9%;
+    bottom: 50px;
+    
+    /* margin: -50px; */
+}

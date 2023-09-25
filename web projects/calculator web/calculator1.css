@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main {
+    text-align: center;
+    position: relative;
+    top: 50px;
+
+}
+
+input[type=text] {
+height: 100px;
+width:200px;
+color: #fff;
+background-color: black;
+border: hidden;
+font-size: 30px;
+
+}
+
+#red {
+    color: red;
+}
+#white {
+    color: #fff;
+}
+
+button {
+height: 50px;
+width: 50px;
+background: transparent;
+border: hidden;
+font-size: 20px;
+cursor: pointer;
+}
+
+#red:hover {
+    background-color: rgb(105, 45, 45);
+    transition:   all 0.4s ;
+    border-radius: 100%;
+    
+}
+#white:hover {
+    background-color: rgb(105, 45, 45);
+    transition:  all 0.4s  ;
+    border-radius: 100%;
+    
+}
+
+/* canvas {
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+  } */

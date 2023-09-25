@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="resume.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<title>RESUME GENERATOR</title>
+</head>
+<body>
+<div class="container" id="cv-form">
+<h1 class="text-center my-2 ">RESUME GENERATOR</h1>
+<p class="text-center ">code with Mr. Web Developer </p>
+<div class="row">
+<div class="col-md-6">
+<!-- frist col -->
+<h3>Personal Information</h3>
+<div class="form-group">
+<label for="namefield">Your Name</label>
+<input type="text" class="form-control"placeholder="Enter Here" id="nameField" required>
+</div>
+<div class="form-group mt-2">
+<label for="contactfield">Contact no.</label>
+<input type="number" class="form-control"placeholder="Enter Here" id="contactField" required>
+</div>
+<div class="form-group mt-2">
+<label for="Addressfield">Your Address</label>
+<textarea class="form-control" id="AddressField" cols="30" rows="1" placeholder="Enter Here" ></textarea>
+</div>
+<div class="form-group mt-3">
+<label for="">Select your photo</label>
+<input id="imgfield" type="file" class="form-control"/>
+</div>
+<p class="text-secondary my-3">Important Links...</p>
+<!-- facebook -->
+<div class="form-group mt-2">
+<label for="facebookfield">Facebook</label>
+<input type="text" class="form-control"placeholder="Paste your Facebook link..." id="fbField" required>
+</div>
+<!-- insta -->
+<div class="form-group mt-2">
+<label for="Instagramfield">Instagram</label>
+<input type="text" class="form-control"placeholder="Paste your Instagram link..." id="InstaField" required>
+</div>
+<!-- linkin -->
+<div class="form-group mt-2">
+<label for="Linkedinfield">Linked IN</label>
+<input type="text" class="form-control"placeholder="Paste your Linkedin link..." id="LinkField" required>
+</div>
+</div>
+<div class="col-md-6">
+<!-- second col -->
+<h3>Professional Information</h3>
+<div class="form-group mt-2" id="o">
+<label for="Ofield">About Me..</label>
+<textarea id="objectiveField" class="form-control Ofield" cols="30" rows="3" placeholder="Enter Here" id="objectivefield" required></textarea>
+</div>
+<div class="form-group mt-2" id="we">
+<label for="WEfield">Professional Experience</label><p class="text-secondary ">click enter then type between li... ><</p>
+<textarea id="wefield" class="form-control wefield"
+cols="30" rows="3" placeholder="plz. write in between <li>...</li>es"></textarea>
+<!-- new text-area -->
+<div class="container text-center mt-2" id="weAddButton">
+<button onclick="printiL()" class="btn btn-primary btn-sm">Enter</button>
+</div>
+</div>
+<!-- aq -->
+<div class="form-group mt-2" id="aq">
+<label for="AQfield">Education Background</label><p class="text-secondary ">click enter then type between li... ><</p>
+<textarea id="aqfield" class="form-control aqfield"
+cols="30" rows="3" placeholder="plz. write in between <li>...</li>es"></textarea>
+<!-- new text-area -->
+<div class="container text-center mt-2" id="aqAddButton">
+<button onclick="printli()" class="btn btn-primary btn-sm">Enter</button>
+</div>
+</div>
+<div class="container text-center mt-3">
+<button onclick="generateCV()" class="btn btn-primary btn-lg">Generate CV</button>
+</div>
+</div>
+</div>
+</div>
+<!-- -------------cv-template-1--------------------- -->
+<div class="container" id="CV-Tmplat">
+<div class="row">
+<div class="col-md-4 text-center py-5 background" >
+<!-- 1st col -->
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDyEv8BX1SYiGL4xSP_3sgIZxHuyO9FRHLUNS3prRATg&s" class="img-fluid myimg"
+id="imgT" width="213px" height="331px"/>
+<div class="container">
+<p id="nameT1">xyz</p>
+<p id="contactT">+915674564562 , +915645645355</p>
+<p id="addressT">geakoasfhrgtrjutyjnthj6ftkyikyk,yk</p>
+<hr />
+<p><a href="#" id="fbT">http://www.facebook.com/mr.webdeveloper</a></p>
+<p> <a href="#" id="instaT">http://www.Instagram.com/mr.webdeveloper</a></p>
+<p><a href="#" id="linkT">http://www.linked in.com/mr.webdeveloper</a></p>
+</div>
+</div>
+<div class="col-md-8 py-5">
+<!-- 2nd col -->
+<h1 id="nameT2" class="text-center" style="font-weight: 980;">kartik gangil</h1>
+<!-- objective card -->
+<div class="card mt-4">
+<div class="card-header" style="background-color: rgb(255, 145, 0);">
+<h3>About Me..</h3>
+</div>
+<div class="card-body">
+<p id="objectiveT">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, iste dolore voluptatem a accusamus ea fuga doloribus dicta? Dolorem quis, magnam similique placeat reiciendis distinctio adipisci voluptates sequi? Ipsum, voluptatibus quaerat magni sequi quibusdam enim quis amet ad? Fugiat veritatis asperiores expedita aliquam dicta minima nobis? Mollitia et libero quisquam.
+</p>
+</div>
+</div>
+<div class="card mt-4">
+<div class="card-header" style="background-color:rgb(255, 145, 0);">
+<h3> Professional Experience</h3>
+</div>
+<div class="card-body">
+<p id="weT">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, iste dolore voluptatem a accusamus ea fuga doloribus dicta? Dolorem quis, magnam similique placeat reiciendis distinctio adipisci voluptates sequi? Ipsum, voluptatibus quaerat magni sequi quibusdam enim quis amet ad? Fugiat veritatis asperiores expedita aliquam dicta minima nobis? Mollitia et libero quisquam.
+</p>
+</ul>
+</div>
+</div>
+<div class="card mt-4">
+<div class="card-header" style="background-color: rgb(255, 145, 0);">
+<h3> Education Background</h3>
+</div>
+<div class="card-body">
+<p id="aqT">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eligendi delectus nihil quae nulla aut at, ratione animi voluptatibus ad incidunt nam accusamus vel! Error rem doloremque odio provident asperiores non rerum reiciendis earum dolorum repudiandae soluta consequatur, necessitatibus, pariatur molestiae, enim illum illo iure eos velit adipisci! Id, magni.
+</p>
+</div>
+</div>
+<div class="container mt-3 text-center">
+<button onclick="printCV()" class="btn" style="background-color: rgb(255, 145, 0);">
+Print CV
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="resume.js"></script>
+</body>
+</html>

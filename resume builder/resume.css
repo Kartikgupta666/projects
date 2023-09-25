@@ -1,0 +1,12 @@
+#CV-Tmplat { 
+    display: none;
+ }
+.myimg {
+    border:1px solid black ;
+    border-radius: 100%;
+   
+    
+    }
+.background {
+    background-color:rgb(255, 145, 0);
+}
