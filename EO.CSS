@@ -1,0 +1,86 @@
+*{
+    margin: 0%;
+    padding-inline-start: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(59, 59, 59);
+}
+.main {
+    margin-left: 40%;
+}
+.btn {
+    display: block;
+    height: 50%;
+    width: 50%;
+    margin-top: 10px;
+    place-items: center;
+    
+}
+ #number{
+    display: block;
+    border: solid black 1px;
+    margin-top: 10px;
+    place-items: center;
+    height: 70px;
+    width: 310px;
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+    color:black;
+}
+
+#result{
+    display: block;
+    border:none;
+    margin-top: 10px;
+    place-items: center;
+    height: 70px;
+    width: 310px;
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+    background-color: transparent;
+    /* font-variant-caps: unicase; */
+    color: red;
+    
+}
+
+.clr{
+    background-color: crimson;
+    height: 100px;
+    width: 155px;
+    text-align: center;
+    margin-bottom: 5px;
+    border-radius: 50px;
+    font-size: 40px;
+}
+
+.button {
+    background-color: silver;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    font-size: 50px;
+}
+.butt{
+    background-color: silver;
+    height: 100px;
+    width: 310px;
+    text-align: center;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    font-size: 50px;
+    
+}
+.check{
+    background-color: crimson;
+    height: 100px;
+    width: 155px;
+    text-align: center;
+    margin-bottom: 5px;
+    border-radius: 50px;
+    font-size: 40px;
+}
